@@ -1,0 +1,31 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+#intro {
+    background: url(../images/background_texture.svg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-gray{
+    color: #a0a0a0;
+}
+
+h1{
+    font-size: 2rem;
+}
